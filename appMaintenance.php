@@ -201,7 +201,7 @@
 	      </div>
 	    </div>
 	  </div>
-            
+            <!-- ns-response-->        
       <div id="ns-response" class="">
           <div class="page-title">
               <div class="title_left">
@@ -352,18 +352,18 @@
 			  }, 1000);
 			});
 			$("#ns-received").hide();
-             $("#ns-response").hide();
+            $("#ns-response").hide();
 
 			$("#ns-notify").click(function () {
 			  $("#ns-received").show();
 			  $("#notification").hide();
 			});
             
-              $("ns-submit").click(function(){
-                  $("#ns-received").hide();
-                  $("#ns-response").show();
-                  
-              })
+          $("#ns-submit").click(function(){
+              $("#ns-received").hide();
+              $("#ns-response").show();
+
+          })
 
 		  });
 
