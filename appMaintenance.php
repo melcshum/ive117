@@ -237,7 +237,7 @@
                            
                           </div>
                           <div>
-                              <a class="btn btn-success"  href="appMaintenance.php" class="alert-link">Submit</a>
+                              <a class="btn btn-success"  href="appMaintenance.php" class="alert-link">Back</a>
                           </div>
  
                       </div>
@@ -261,6 +261,7 @@
 	  <!-- /footer content -->
 	</div>
       </div>
+      </div>    
 
       <!-- jQuery -->
       <script src="vendors/jquery/dist/jquery.min.js"></script>
