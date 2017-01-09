@@ -236,6 +236,9 @@
 
                            
                           </div>
+                          <div>
+                              <a class="btn btn-success"  href="appMaintenance.php" class="alert-link">Submit</a>
+                          </div>
  
                       </div>
                   </div>
@@ -349,7 +352,7 @@
 			  }, 1000);
 			});
 			$("#ns-received").hide();
-             $("ns-response").hide();
+             $("#ns-response").hide();
 
 			$("#ns-notify").click(function () {
 			  $("#ns-received").show();
@@ -358,7 +361,7 @@
             
               $("ns-submit").click(function(){
                   $("#ns-received").hide();
-                  $("ns-response").show();
+                  $("#ns-response").show();
                   
               })
 
