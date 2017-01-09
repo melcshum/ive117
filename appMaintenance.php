@@ -194,13 +194,58 @@
 
 		    </div>
 		    <div>
-		      <a class="btn btn-success" href="appMaintenance.php" class="alert-link">Submit</a>
+		      <a class="btn btn-success"  id="ns-submit" class="alert-link">Submit</a>
 		    </div>
 		  </div>
 		</div>
 	      </div>
 	    </div>
 	  </div>
+            
+      <div id="ns-response" class="">
+          <div class="page-title">
+              <div class="title_left">
+                  <h3>Non-routine work card </h3>
+              </div>
+
+              <div class="title_right">
+                  <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search for...">
+                          <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">Go!</button>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div   class="x_panel">
+                      <div class="x_title">
+                          <h2> Request Received   </h2>  <br>
+
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="x_content">
+                          <br />
+
+                          <div  class="alert alert-warning">
+                              <h2 > <i class="fa fa-warning"></i>  Work card is completed </h2>
+
+                           
+                          </div>
+ 
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          
+      </div>        
+            
+            
 	  <!-- /page content -->
 
 	  <!-- footer content -->
@@ -304,11 +349,18 @@
 			  }, 1000);
 			});
 			$("#ns-received").hide();
+             $("ns-response").hide();
 
 			$("#ns-notify").click(function () {
 			  $("#ns-received").show();
 			  $("#notification").hide();
 			});
+            
+              $("ns-submit").click(function(){
+                  $("#ns-received").hide();
+                  $("ns-response").show();
+                  
+              })
 
 		  });
 
