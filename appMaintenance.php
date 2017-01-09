@@ -19,7 +19,7 @@
     -->
     <!-- iCheck -->
     <!--
-   
+
     <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
     -->
     <!-- bootstrap-wysiwyg -->
@@ -36,7 +36,7 @@
     -->
     <!-- starrr -->
     <!--
-    
+
     <link href="vendors/starrr/dist/starrr.css" rel="stylesheet">
     -->
     <!-- bootstrap-daterangepicker -->
@@ -72,7 +72,7 @@
 
             <br />
 
-	    <?php include 'inc/sideMenu.php' ?> 	
+	    <?php include 'inc/sideMenu.php'?>
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
               <a data-toggle="tooltip" data-placement="top" title="Settings">
@@ -128,12 +128,12 @@
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
-			  The defect is that the passenger seat 5B ...
+			  The defect is that the passenger seat 2C ...
                         </span>
                       </a>
                     </li>
 		    <!--
-				       
+
 					<li>
 					  <div class="text-center">
 					    <a>
@@ -183,9 +183,9 @@
                   <div class="x_content">
                     <br />
 		    <div id="blink" class="alert alert-info">
-		      <h3> Ticket number:  123456</h3>
+		      <h3> Work Card number:  123456</h3>
 		      <h4>
-			The defect is that the passenger seat 5B was found loosen. Please help to check the aircraft maintenance manual about aircraft equipment.</h4> 
+			The defect is that the passenger seat 2C was found loosen. Please help to check the aircraft maintenance manual about aircraft equipment.</h4>
 		      <div class="checkbox">
 			<label>
 			  <input type="checkbox" checked="checked" value=""> checked
@@ -194,7 +194,7 @@
 
 		    </div>
 		    <div>
-		      <a class="btn btn-success" href="appMaintenance.php" class="alert-link">Submit</a> 
+		      <a class="btn btn-success" href="appMaintenance.php" class="alert-link">Submit</a>
 		    </div>
 		  </div>
 		</div>
@@ -225,7 +225,7 @@
       -->
       <!-- NProgress -->
       <!--
-     
+
       <script src="vendors/nprogress/nprogress.js"></script>
       -->
 
@@ -236,16 +236,16 @@
 
       <!-- iCheck -->
       <!--
-     
+
       <script src="vendors/iCheck/icheck.min.js"></script>
-      
+
       -->
       <!-- bootstrap-daterangepicker -->
       <!--
-      
+
      <script src="vendors/moment/min/moment.min.js"></script>
       <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
-      
+
       -->
       <!-- bootstrap-wysiwyg -->
       <script src="vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
@@ -253,32 +253,32 @@
       <script src="vendors/google-code-prettify/src/prettify.js"></script>
       <!-- jQuery Tags Input -->
       <!--
-     
+
       <script src="vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
       -->
       <!-- Switchery -->
       <!--
-    
+
      <script src="vendors/switchery/dist/switchery.min.js"></script>
       -->
       <!-- Select2 -->
       <!--
-    
+
       <script src="vendors/select2/dist/js/select2.full.min.js"></script>
       -->
       <!-- Parsley -->
       <!--
-    
+
       <script src="vendors/parsleyjs/dist/parsley.min.js"></script>
       -->
       <!-- Autosize -->
       <!--
-    
+
       <script src="vendors/autosize/dist/autosize.min.js"></script>
       -->
       <!-- jQuery autocomplete -->
       <!--
-    
+
       <script src="vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
       -->
       <!-- starrr -->

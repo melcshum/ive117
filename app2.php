@@ -18,7 +18,7 @@
     -->
     <!-- iCheck -->
     <!--
-   
+
     <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
     -->
     <!-- bootstrap-wysiwyg -->
@@ -35,7 +35,7 @@
     -->
     <!-- starrr -->
     <!--
-    
+
     <link href="vendors/starrr/dist/starrr.css" rel="stylesheet">
     -->
     <!-- bootstrap-daterangepicker -->
@@ -64,14 +64,14 @@
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>John Doe</h2>
+                <h2>John Smith</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
 
             <br />
 
-	  <?php include 'inc/sideMenu.php'?> 	
+	  <?php include 'inc/sideMenu.php'?>
 
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
@@ -131,11 +131,11 @@
 			   <span class="time">3 mins ago</span>
 			 </span>
 			 <span class="message">
-			   Seat unstable at JAL1234
+			   Seat unstable at ty123
 			 </span>
 		       </a>
 		     </li>
- 
+
 		     <li>
 		       <a>
 			 <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
@@ -144,10 +144,10 @@
 			   <span class="time">1 mins ago</span>
 			 </span>
 			 <span class="message">
-			   Seat unstable at JAL1234
+			   Seat unstable at ty123
 			 </span>
 		       </a>
-		     </li> 
+		     </li>
 		    -->
                     <li>
                       <div class="text-center">
@@ -201,7 +201,7 @@
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="flight-no">Flight No <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="flight-no" required="required" class="form-control col-md-7 col-xs-12" value=""> 
+                          <input type="text" id="flight-no" required="required" class="form-control col-md-7 col-xs-12" value="">
                         </div>
                       </div>
                       <div class="form-group">
@@ -284,7 +284,7 @@
 
 			  <textarea name="descr" id="descr" style="display:none;"></textarea>
 
-			  <br /> 
+			  <br />
 
 			</div>
                       </div>
@@ -333,18 +333,18 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                    <br /> 
+                    <br />
 
 		    <div  class="alert alert-warning">
-		      <h2 id="blink" > <i class="fa fa-warning"></i> Your request is submitted !</h2> 
+		      <h2 id="blink" > <i class="fa fa-warning"></i> Your request is submitted !</h2>
 
 
-		      The Ticket number is 123456.  <br>
+		      The Work card number is 123456.  <br>
 		      Your request will handle shortly. <br>
 		    </div>
 
 		    <div>
-		      <a class="btn btn-success" href="app2.php" class="alert-link">Back</a> 
+		      <a class="btn btn-success" href="app2.php" class="alert-link">Back</a>
 		    </div>
 		  </div>
 		</div>
@@ -375,7 +375,7 @@
       -->
       <!-- NProgress -->
       <!--
-     
+
       <script src="vendors/nprogress/nprogress.js"></script>
       -->
 
@@ -386,16 +386,16 @@
 
       <!-- iCheck -->
       <!--
-     
+
       <script src="vendors/iCheck/icheck.min.js"></script>
-      
+
       -->
       <!-- bootstrap-daterangepicker -->
       <!--
-      
+
      <script src="vendors/moment/min/moment.min.js"></script>
       <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
-      
+
       -->
       <!-- bootstrap-wysiwyg -->
       <script src="vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
@@ -403,32 +403,32 @@
       <script src="vendors/google-code-prettify/src/prettify.js"></script>
       <!-- jQuery Tags Input -->
       <!--
-     
+
       <script src="vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
       -->
       <!-- Switchery -->
       <!--
-    
+
      <script src="vendors/switchery/dist/switchery.min.js"></script>
       -->
       <!-- Select2 -->
       <!--
-    
+
       <script src="vendors/select2/dist/js/select2.full.min.js"></script>
       -->
       <!-- Parsley -->
       <!--
-    
+
       <script src="vendors/parsleyjs/dist/parsley.min.js"></script>
       -->
       <!-- Autosize -->
       <!--
-    
+
       <script src="vendors/autosize/dist/autosize.min.js"></script>
       -->
       <!-- jQuery autocomplete -->
       <!--
-    
+
       <script src="vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
       -->
       <!-- starrr -->
@@ -503,7 +503,7 @@
 			});
 			/*
 						 $("#flight-no").val("JAL1234");
-						 $('#editor').html("The defect is that the passenger seat 5B was found loosen. \n\
+						 $('#editor').html("The defect is that the passenger seat 2C was found loosen. \n\
 						 Please help to check the aircraft maintenance manual about aircraft equipment.")
 						 .css("font-size", "200%");
 						 */
@@ -536,8 +536,8 @@
 			});
 
 			$("#flight-no").click(function () {
-			  $("#flight-no").val("JAL1234");
-			  $('#editor').html("The defect is that the passenger seat 5B was found loosen. \n\
+			  $("#flight-no").val("ty123");
+			  $('#editor').html("The defect is that the passenger seat 2C was found loosen. \n\
 			Please help to check the aircraft maintenance manual about aircraft equipment.")
 					  .css("font-size", "200%");
 			});
