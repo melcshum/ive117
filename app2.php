@@ -52,7 +52,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="app2.php" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                <a href="app2.php" class="site_title"><img src="images/logo.png">  </a>
             </div>
 
             <div class="clearfix"></div>
@@ -356,7 +356,7 @@
 	  <!-- footer content -->
 	  <footer>
 	    <div class="pull-right">
-	      IVE (Tsing Yi)
+            <img src="images/logo.png"> 
 	    </div>
 	    <div class="clearfix"></div>
 	  </footer>

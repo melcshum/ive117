@@ -51,7 +51,7 @@
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-paw"></i>  IVE (Tsing Yi)</h1>
+                    <h1> <img src="images/logo.png"></h1>
                 
                 </div>
               </div>
