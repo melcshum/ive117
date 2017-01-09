@@ -6,8 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>  IVE (Tsing Yi)</title>
+      <title> Air TY</title>
 
     <!-- Bootstrap -->
     <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +52,12 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="appMaintenance.php" class="site_title"><img src="images/logo.png">  </a>
+              <a href="appMaintenance.php" class="site_title">
+
+                   
+                      <span>Air TY</span>
+                       
+             </a>
             </div>
 
             <div class="clearfix"></div>
