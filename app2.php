@@ -339,7 +339,7 @@
 		      <h2 id="blink" > <i class="fa fa-warning"></i> Your request is submitted !</h2>
 
 
-		      The work card number is 123456.  <br>
+		      Work card number is 123456.  <br>
 		      Your request will handle shortly. <br>
 		    </div>
 
