@@ -189,7 +189,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div   class="x_panel">
                   <div class="x_title">
-                    <h2 id="hideFormVal">Request Submission  <small></small></h2>
+                    <h2 id="hideFormVal">Request Submission </h2>
 
                     <div class="clearfix"></div>
                   </div>
@@ -339,7 +339,7 @@
 		      <h2 id="blink" > <i class="fa fa-warning"></i> Your request is submitted !</h2>
 
 
-		      The Work card number is 123456.  <br>
+		      The work card number is 123456.  <br>
 		      Your request will handle shortly. <br>
 		    </div>
 
