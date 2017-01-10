@@ -539,12 +539,16 @@
 			  });
 			});
 
-			$("#flight-no").click(function () {
-			  $("#flight-no").val("Ty123");
-			  $('#editor').html("The defect is that the passenger seat 2C was found loosen. \n\
-			Please help to check the aircraft maintenance manual about aircraft equipment.")
-					  .css("font-size", "200%");
-			});
+            function updateContent(){
+               $("#flight-no").val("Ty123");
+               $('#editor').html("The defect is that the passenger seat 2C was found loosen. Please help to check the aircraft maintenance manual about aircraft equipment.")
+                        .css("font-size", "200%");
+                 
+            }  
+              
+              $("#flight-no").click(updateContent);
+
+              $("#editor").click(updateContent);
 
 
 			$("#hideFormVal").click(function () {
