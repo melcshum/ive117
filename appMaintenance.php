@@ -188,6 +188,7 @@
                     <br />
 		    <div id="blink" class="alert alert-info">
 		      <h3>Work card number:  123456</h3>
+		      <h4>Flight No: Ty123</h4>
 		      <h4>
 			The defect is that the passenger seat 2C was found loosen. Please help to check the aircraft maintenance manual about aircraft equipment.</h4>
 		      <div class="checkbox">
