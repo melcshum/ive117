@@ -237,7 +237,7 @@
                           <br />
 
                           <div  class="alert alert-warning">
-                              <h2 ><i class="fa fa-check"></i>  Non routine work card is completed </h2>
+                              <h2 ><i class="fa fa-check"></i>  Non routine work card is completed. </h2>
 
                            
                           </div>
