@@ -258,7 +258,7 @@
 	  <!-- footer content -->
 	  <footer>
 	    <div class="pull-right">
-            <img src="images/logo.png"> 
+            <img id="logo" src="images/logo.png"> 
 	    </div>
 	    <div class="clearfix"></div>
 	  </footer>
@@ -345,17 +345,20 @@
 
       <script>
 		  $(document).ready(function () {
-
-			$("#notification").each(function () {
-			  var elem = $(this);
-			  setInterval(function () {
-				if (elem.css('visibility') == 'hidden') {
-				  elem.css('visibility', 'visible');
-				} else {
-				  elem.css('visibility', 'hidden');
-				}
-			  }, 1000);
-			});
+              $("#notification").hide();
+            $("#logo").click(function(){  
+                
+                $("#notification").show().each(function () {
+                  var elem = $(this);
+                  setInterval(function () {
+                    if (elem.css('visibility') == 'hidden') {
+                      elem.css('visibility', 'visible');
+                    } else {
+                      elem.css('visibility', 'hidden');
+                    }
+                  }, 1000);
+                });
+            });
 			$("#ns-received").hide();
             $("#ns-response").hide();
 
