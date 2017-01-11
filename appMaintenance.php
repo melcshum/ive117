@@ -161,7 +161,7 @@
 	  <div id="ns-received" class="">
             <div class="page-title">
               <div class="title_left">
-		<h3>Non-routine work card </h3>
+		<h3 id="ns-reset">Non-routine work card </h3>
               </div>
 
               <div class="title_right">
@@ -374,6 +374,12 @@
 
           })
 
+          $("#ns-reset").click(function(){
+              $("#ns-received").hide();
+              $("#ns-response").hide();
+ 
+
+          })
 		  });
 
       </script>
