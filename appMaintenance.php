@@ -242,7 +242,7 @@
                            
                           </div>
                           <div>
-                              <a class="btn btn-success"  class="ns-reset alert-link">Back</a>
+                              <a class="btn btn-success alert-link ns-reset" >Back</a>
                           </div>
  
                       </div>
