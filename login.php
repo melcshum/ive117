@@ -32,10 +32,10 @@
             <form>
               <h1>Login Form</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
+                <input type="text" class="form-control" placeholder="Username" required="" value="clara" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" class="form-control" placeholder="Password" required="" value="clara"  />
               </div>
               <div>
                 <a class="btn btn-default submit" href="app2.php">Log in</a>

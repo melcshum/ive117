@@ -65,11 +65,11 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="images/user.png" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>John Doe</h2>
+                <h2>Leo</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -107,7 +107,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">John Doe
+                    <img src="images/user.png" alt="">Leo 
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -126,9 +126,9 @@
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li id="ns-notify">
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/user.png" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
+                          <span>Leo</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
@@ -193,7 +193,7 @@
 			The defect is that the passenger seat 2C was found loosen. Please help to check the aircraft maintenance manual about aircraft equipment.</h4>
 		      <div class="checkbox">
 			<label>
-			  <input type="checkbox" checked="checked" value=""> checked
+			  <input type="checkbox"  value=""> checked
 			</label>
 		      </div>
 
