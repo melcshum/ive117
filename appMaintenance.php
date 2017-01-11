@@ -180,7 +180,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div   class="x_panel">
                   <div class="x_title">
-                      <h2 id="ns-reset"> Request Received   </h2>  <br>
+                      <h2 class="ns-reset"> Request Received   </h2>  <br>
 
                     <div class="clearfix"></div>
                   </div>
@@ -229,7 +229,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                   <div   class="x_panel">
                       <div class="x_title">
-                          <h2 id="ns-reset2"> Request Received   </h2>  <br>
+                          <h2 class="ns-reset"> Request Received   </h2>  <br>
 
                           <div class="clearfix"></div>
                       </div>
@@ -242,7 +242,7 @@
                            
                           </div>
                           <div>
-                              <a class="btn btn-success"  href="appMaintenance.php" class="alert-link">Back</a>
+                              <a class="btn btn-success"  class="ns-reset alert-link">Back</a>
                           </div>
  
                       </div>
@@ -374,19 +374,14 @@
 
           })
 
-          $("#ns-reset").click(function(){
+          $(".ns-reset").click(function(){
               $("#ns-received").hide();
               $("#ns-response").hide();
  
 
           })
           
-          $("#ns-reset2").click(function(){
-              $("#ns-received").hide();
-              $("#ns-response").hide();
-
-
-          })
+          
 		  });
 
       </script>
