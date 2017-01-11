@@ -161,7 +161,7 @@
 	  <div id="ns-received" class="">
             <div class="page-title">
               <div class="title_left">
-		<h3 id="ns-reset">Non-routine work card </h3>
+		<h3 >Non-routine work card </h3>
               </div>
 
               <div class="title_right">
@@ -180,7 +180,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div   class="x_panel">
                   <div class="x_title">
-                    <h2> Request Received   </h2>  <br>
+                      <h2 id="ns-reset"> Request Received   </h2>  <br>
 
                     <div class="clearfix"></div>
                   </div>
@@ -229,7 +229,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                   <div   class="x_panel">
                       <div class="x_title">
-                          <h2> Request Received   </h2>  <br>
+                          <h2 id="ns-reset2"> Request Received   </h2>  <br>
 
                           <div class="clearfix"></div>
                       </div>
@@ -378,6 +378,13 @@
               $("#ns-received").hide();
               $("#ns-response").hide();
  
+
+          })
+          
+          $("#ns-reset2").click(function(){
+              $("#ns-received").hide();
+              $("#ns-response").hide();
+
 
           })
 		  });
